@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+// Умножение различных типов данных
+
+<script>
+
+let first = 123;
+let second = '222';
+let mult = first * second;
+
+console.log(mult);
+
+let third = true;
+let fourth = '222';
+let mult2 = third * fourth;
+
+console.log(mult2);
+
+let fifth = true;
+let sixth = 222;
+let mult3 = fifth * sixth;
+
+console.log(mult3);
+
+</script>
+
+</body>
+</html> 
