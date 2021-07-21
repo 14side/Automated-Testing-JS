@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+// Деление различных типов
+
+let first = 123;
+let second = '222';
+let div = first / second;
+
+console.log(div);
+
+let third = true;
+let fourth = '222';
+let div2 = third / fourth;
+
+console.log(div2);
+
+let fifth = true;
+let sixth = 222;
+let div3 = fifth / sixth;
+
+console.log(div3);
+
+</script>
+
+</body>
+</html> 
