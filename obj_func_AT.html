@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+//-        Создать объект car, добавить к нему свойство color со значением 'черный'
+
+//-        Изменить свойство color объекта car на 'зеленый'
+
+//-        В объект car добавить свойство power, которое является функцией и выводит в консоль мощность двигателя 
+
+let car= {};
+car.color = 'black';
+car.color = 'green';
+car.power = 'numOfHorse';
+function power(numOfHorse){
+  console.log(numOfHorse);
+}
+power(120)
+
+// -        На склад принимают груши и яблоки, напишите функцию, которая возвращает результат сложения количества принятых груш и яблок
+
+function fruit(pear,apple){
+  console.log(pear+apple);
+}
+fruit(12,5)
+
+// -        В терминале оплаты сохранено ваше имя, напишите функцию для определения имени в терминале(если вы ввели ваше имя, то привет + имя, если нет, то нет такого имени)
+
+function terminal(name){
+  if (name == 'Mike') 
+    console.log('привет ' + name)
+    
+  
+  else
+    console.log('нет такого имени')
+  
+  
+}
+terminal('Mike')
+
+// -        Напишите функцию вычисления типа аргумента и вывод типа в консоль
+
+function argument(arg){
+  console.log(typeof arg)
+}
+argument(true)
+
+// -        Напишите функцию, которая определяет является ли число простым или нет
+
+function simpleNum(num){
+  for (let i=2; i<num; i++){
+    if (num%i==0)
+      return console.log (num + ' is not simple number');
+      
+
+    else 
+      return console.log(num + ' is simple')
+        
+  }
+}
+simpleNum(11)
+</script>
+
+</body>
+</html> 

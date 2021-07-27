@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+let car= {};
+car.color = 'black';
+car.color = 'green';
+car.power = 'numOfHorse';
+function power(numOfHorse){
+  console.log(numOfHorse);
+}
+power(120)
+
+function fruit(pear,apple){
+  console.log(pear+apple);
+}
+fruit(12,5)
+
+function terminal(name){
+  if (name == 'Mike') 
+    console.log('привет ' + name)
+    
+  
+  else
+    console.log('нет такого имени')
+  
+  
+}
+terminal('Mike')
+
+function argument(arg){
+  console.log(typeof arg)
+}
+argument(true)
+
+
+function simpleNum(num){
+  for (let i=2; i<num; i++){
+    if (num%i==0)
+      return console.log (num + ' is not simple number');
+      
+
+    else 
+      return console.log(num + ' is simple')
+        
+  }
+}
+simpleNum(11)
+</script>
+
+</body>
+</html> 
